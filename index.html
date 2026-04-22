@@ -4,59 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flipkart UI Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@500;700;800&display=swap" rel="stylesheet">
 
     <!-- Link CSS -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="ambient-shape ambient-shape-1"></div>
+    <div class="ambient-shape ambient-shape-2"></div>
 
     <!-- Navbar -->
-    <div class="navbar">
-        <div class="logo">Flipkart</div>
-
-        <div class="search-box">
-            <input type="text" placeholder="Search for products...">
+    <header class="navbar">
+        <div class="logo-wrap">
+            <div class="logo-mark">F</div>
+            <div class="logo">Flipkart</div>
         </div>
 
-        <div class="login-btn">Login</div>
-    </div>
+        <div class="search-box">
+            <input type="text" placeholder="Search for phones, laptops, shoes and more">
+        </div>
+
+        <button class="login-btn">Login</button>
+    </header>
+
+    <section class="hero">
+        <div class="hero-copy">
+            <p class="eyebrow">Festive launch offers</p>
+            <h1>Shop smarter, live better.</h1>
+            <p class="hero-subtext">Curated picks with sharp prices, faster delivery, and daily drops across all categories.</p>
+            <button class="cta">Explore Deals</button>
+        </div>
+        <div class="hero-stats">
+            <div class="stat-card">
+                <span>1L+</span>
+                <p>Products</p>
+            </div>
+            <div class="stat-card">
+                <span>24h</span>
+                <p>Fast Shipping</p>
+            </div>
+            <div class="stat-card">
+                <span>4.8</span>
+                <p>Customer Rating</p>
+            </div>
+        </div>
+    </section>
 
     <!-- Categories -->
-    <div class="categories">
-        <div class="category">Mobiles</div>
-        <div class="category">Fashion</div>
-        <div class="category">Electronics</div>
-        <div class="category">Home</div>
-        <div class="category">Appliances</div>
-        <div class="category">Travel</div>
-    </div>
+    <section class="categories">
+        <button class="category">Mobiles</button>
+        <button class="category">Fashion</button>
+        <button class="category">Electronics</button>
+        <button class="category">Home</button>
+        <button class="category">Appliances</button>
+        <button class="category">Travel</button>
+    </section>
 
     <!-- Products -->
-    <div class="products">
+    <section class="section-head">
+        <h2>Top picks for you</h2>
+        <a href="#">View all</a>
+    </section>
+
+    <section class="products">
         <div class="card">
-            <img src="https://via.placeholder.com/150">
+            <img src="https://images.unsplash.com/photo-1678652197831-2d180705cd2c?auto=format&fit=crop&w=500&q=80" alt="iPhone 14">
             <div class="title">iPhone 14</div>
             <div class="price">₹70,000</div>
         </div>
 
         <div class="card">
-            <img src="https://via.placeholder.com/150">
+            <img src="https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=500&q=80" alt="Samsung TV">
             <div class="title">Samsung TV</div>
             <div class="price">₹40,000</div>
         </div>
 
         <div class="card">
-            <img src="https://via.placeholder.com/150">
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=500&q=80" alt="Nike Shoes">
             <div class="title">Nike Shoes</div>
             <div class="price">₹5,000</div>
         </div>
 
         <div class="card">
-            <img src="https://via.placeholder.com/150">
+            <img src="https://images.unsplash.com/photo-1517336714739-489689fd1ca8?auto=format&fit=crop&w=500&q=80" alt="Laptop">
             <div class="title">Laptop</div>
             <div class="price">₹60,000</div>
         </div>
-    </div>
+    </section>
 
 </body>
 </html>
